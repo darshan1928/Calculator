@@ -1,0 +1,56 @@
+.container{
+    width: 420px;
+    height: 640px;
+    background-color:black;
+   margin: auto;
+   padding: 10px;
+   border-radius: 10px;
+}
+p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    font-size: 1.5rem;
+} 
+
+#screen {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; 
+    width: 400px;
+    height: 80px;
+    font-size: 4rem;
+    text-align: right;
+    margin: 5px;
+
+}
+.buttonc {
+    background-color: red;
+    color: white;
+}
+.buttonsym {
+    background-color: rgb(61, 60, 59);
+    color: white;
+
+}
+
+.buttonc, .buttonsym, .button,.buttone {
+    height: 92px;
+    width: 80px;
+    font-size: 2.5rem;
+    margin:10px;
+    margin-top: 15px;
+    border-radius: 15px;
+
+}
+.buttonc:hover{
+    border: 5px solid greenyellow;
+}
+.button:hover{
+    border: 5px solid greenyellow;
+}
+.buttone:hover{
+    border: 5px solid greenyellow;
+}
+.buttonsym:hover{
+    border: 5px solid greenyellow;
+}

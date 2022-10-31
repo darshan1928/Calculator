@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center">CALCULATOR</h1>
+    <div class="container">
+      <p>INTEX</p>
+      <input type="text" id="screen" />
+      <input type="button" value="7" class="button" onclick="btnclick(value)" />
+      <input type="button" value="8" class="button" onclick="btnclick(value)" />
+      <input type="button" value="9" class="button" onclick="btnclick(value)" />
+      <input
+        type="button"
+        value="/"
+        class="buttonsym"
+        onclick="btnclick(value)"
+      />
+
+      <br />
+      <input type="button" value="4" class="button" onclick="btnclick(value)" />
+      <input type="button" value="5" class="button" onclick="btnclick(value)" />
+      <input type="button" value="6" class="button" onclick="btnclick(value)" />
+      <input
+        type="button"
+        value="*"
+        class="buttonsym"
+        onclick="btnclick(value)"
+      />
+
+      <br />
+      <input type="button" value="1" class="button" onclick="btnclick(value)" />
+      <input type="button" value="2" class="button" onclick="btnclick(value)" />
+      <input type="button" value="3" class="button" onclick="btnclick(value)" />
+      <input
+        type="button"
+        value="-"
+        class="buttonsym"
+        onclick="btnclick(value)"
+      />
+
+      <br />
+      <input type="button" value="c" class="buttonc" onclick="clearscreen()" />
+      <input type="button" value="0" class="button" onclick="btnclick(value)" />
+      <input
+        type="button"
+        value="+"
+        class="buttonsym"
+        onclick="btnclick(value)"
+      />
+      <input type="button" value="=" class="buttone" onclick="findresult()" />
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
